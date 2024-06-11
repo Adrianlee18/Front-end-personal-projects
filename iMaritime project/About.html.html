@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iMaritime</title>
+    <link rel="stylesheet" href="iMaritimestyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <a href="iMartime.html"><img src="Blue Anchor Fashion Logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+            <ul>
+                <li><a href="iMartime.html">HOME</a></li>
+                <li><a href="About.html.html">ABOUT</a></li>
+                <li><a href="subjects.html.html">SUBJECTS</a></li>
+                <li><a href="Blog.html.html">BLOG</a></li>
+            </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+          
+       </nav>
+      <h1>About us</h1>
+      </section>
+
+<!---------about us content-------->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+           <h1>Free subjects to study online</h1>
+           <p>We provide free subjects to study to help maritime students in their studies.
+            From Navigation, seamanship to IMO conventions and more. we can assure that all uploaded information here 
+            are the same quality that can be apply onboard the ship. this website is made by D/C Adrian Nunez a fellow maritime graduate 
+            and a seafarer. 
+           </p>
+        </div>
+        <div class="about-col">
+            <img src="Gradpic.jpg">
+            <p>D/C. Adrian Nunez</p>
+        
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+    <!-------- footer --------->
+    <section class="footer">
+        <p>&copy; 2024 iMaritime.com All rights reserved.</p>
+        <p>made by D/C. Adrian Lee Nunez</p>
+
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    
+    </script>
+
+
+
+
+</body>
+</html>
