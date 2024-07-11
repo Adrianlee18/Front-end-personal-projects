@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(239, 239, 239);
+    
+}
+
+.header {
+    position: relative;
+    flex: 1;
+    margin-left: 200px;
+    margin-top: 200px;
+    width: 300px;
+    right: 0px;
+    left: 130px;
+    
+}
+
+h1 {
+    color: rgb(24, 119, 242);
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-title {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70rem;
+}
+
+.log-in {
+    width: 100px;
+    margin-left: 750px;
+    position: absolute;
+    bottom: 140px;
+    
+}
+form {
+    display: block;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 320px;
+    height: 300px;
+    padding: 35px;
+    border-radius: 10px;
+
+}
+
+#username {
+    margin-bottom: 10px;
+    margin-right: ;
+    width: 250px;
+    height: 35px;
+    border-color: rgb(240, 240, 240);
+    border-radius: 5px;
+}
+#password {
+    margin-bottom: 10px;
+    width: 250px;
+    height: 35px;
+    border-color: rgb(240, 240, 240);
+    border-radius: 5px;
+}
+#login {
+    width: 250px;
+    height: 35px;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border-color: rgb(24, 119, 242);
+    
+}
+#login:hover {
+    background-color: rgb(47, 137, 255);
+    transition: 0.5s;
+}
+#forgot {
+    margin-left: 80px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(24, 119, 242);
+}
+hr {
+    margin-top: 20px;
+}
+.new-account {
+    margin-top: 20px;
+    width: 160px;
+    height: 40px;
+    margin-left: 50px;
+    background-color: #0bd630;
+    color: azure;
+    border-radius: 5px;
+    border-color: #0bd630;
+    font-weight: 200;
+}
+.new-account:hover {
+    background-color: #0ac02c;
+    transition: 0.5s;
+}
