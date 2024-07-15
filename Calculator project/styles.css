@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+.container {
+    position: absolute;
+    margin-top: 10%;
+    background-color: #787878;
+    height: 340px;
+    width: 250px;
+    padding: 50px;
+    border-radius: 30px;
+    margin-left: 500px;
+}
+.display {
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    border: 2px #030303 solid;
+    font-size: 40px;
+}
+
+.countButtons {
+    margin-top: 20px;
+    justify-content: space-evenly;
+
+    
+}
+
+/*----- size of buttons ------*/
+
+
+#clear {
+    height: 40px;
+    width: 60px;
+    border: 2px #030303 solid;
+    background-color: yellow;
+    cursor: pointer;
+}
+#percent {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: 2px #030303 solid;
+    background-color: yellow;
+}
+#del {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: 2px #030303 solid;
+    background-color: yellow;
+}
+#division {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: 2px #030303 solid;
+    background-color: yellow;
+}
+
+#number7, #number8, #number9, #multiplication {
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+    border: 2px #030303 solid;
+}
+#number4, #number5, #number6, #subtract {
+    height: 40px;
+    width: 40px;
+    margin-top: 55px;
+    cursor: pointer;
+    border: 2px #030303 solid;
+}
+#number1, #number2, #number3, #addition {
+    height: 40px;
+    width: 40px;
+    margin-top: 80px;
+    cursor: pointer;
+    border: 2px #030303 solid;
+}
+#doublezero, #zero, #dot, #equals {
+    height: 40px;
+    width: 40px;
+    margin-top: 105px;
+    cursor: pointer;
+    border: 2px #030303 solid;
+}
+
+
+/*----- spacing of buttons ---------*/
+
+
+#clear {
+    position: absolute;
+    left: 25px
+}
+#percent {
+    position: absolute;
+    left: 90px
+}
+#del {
+    position: absolute;
+    left: 135px;
+}
+#division {
+    position: absolute;
+    left: 180px;
+}
+#number7 {
+    position: absolute;
+    left: 25px;
+}
+#number8 {
+    position: absolute;
+    left: 70px;
+}
+#number9 {
+    position: absolute;
+    left: 115px
+}
+#multiplication {
+    position: absolute;
+    left: 180px;
+}
+#number4 {
+    position: absolute;
+    left: 25px;
+}
+#number5 {
+    position: absolute;
+    left: 70px;
+}
+#number6 {
+    position: absolute;
+    left: 115px;
+}
+#subtract {
+    position: absolute;
+    left: 180px;
+}
+#number1 {
+    position: absolute;
+    left: 25px;
+}
+#number2 {
+    position: absolute;
+    left: 70px;
+}
+#number3 {
+    position: absolute;
+    left: 115px;
+}
+#addition {
+    position: absolute;
+    left: 180px;
+}
+#doublezero {
+    position: absolute;
+    left: 25px;
+}
+#zero {
+    position: absolute;
+    left: 70px;
+}
+#dot {
+    position: absolute;
+    left: 115px;
+}
+#equals {
+    position: absolute;
+    left: 180px;
+}
+
+
+
+
+
+
+
+
+
