@@ -1,0 +1,49 @@
+/* todo list */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #787878;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+#navbar header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 3px;
+    font-size: 30px;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar a{
+    display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+#navbar :active{
+        
+        color: white;
+}
+#navbar a:hover:not(.active){
+    background-color: #555;
+  color: white;
+}
+
+/*--------- Page content style ---------*/
+
+.main-doc {
+    margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
